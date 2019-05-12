@@ -22,12 +22,12 @@ while (true) {
   if(search === null || search.toLowerCase() === 'quit') {
     break;
   } else if (student > -1) { // if the student variable has item output message
-      message += "<p>Name: " + students[student]['name'] + "<br/>";
+      message += "<p>Student: " + students[student]['name'] + "<br/>";
       message += "Track: " + students[student]['track'] + "<br/>";
       message += "Track: " + students[student]['achievements'] + "<br/>";
       message += "Track: " + students[student]['points'] + "<p/>";
   } else {
-      message = 'Sorry, nobody by that name.'; // if all other input, output this
+      message = 'Sorry, no student by that name.'; // if all other input, output this
   }
 }
 
